@@ -1,1 +1,9 @@
 
+Project contains 4 sub-project
+  Device: To create CoAP enabled devices
+  Home Gateway: Program of the intelligent home gateway
+  Humming: Jar library to create ECHONET Lite device
+  Management Platform: The management server
+
+
+  
