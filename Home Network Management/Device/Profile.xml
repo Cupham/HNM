@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device>
+  <object Name="TemperatureSensor">
+  	<property>
+  		<IP_Adress>150.65.230.114</IP_Adress>
+  		<type>variable</type>
+  	</property>
+    <property>
+	    <OperationStatus>ON</OperationStatus>
+	    <set>enabled</set>
+	    <notify>enabled</notify> 
+	    <type>variable</type>
+    </property>
+    
+    <property>
+	    <InstallationLocation>Living Room</InstallationLocation> 
+	    <set>enabled</set>
+	    <notify>enabled</notify> 
+	    <type>variable</type>
+    </property>
+ 
+     <property>
+	    <Standard_Version_Information>1.1 K1</Standard_Version_Information> 
+	    <type>variable</type>
+    </property>   
+     <property>
+	    <Identification_Number>IEEE801.11/11b-19</Identification_Number> 
+	    <type>variable</type>
+    </property> 
+
+     <property>
+	    <Measured_Instantaneous_Power_Consumption>5</Measured_Instantaneous_Power_Consumption> 
+	     <type>variable</type>
+    </property> 
+    <property>
+	    <Measured_Cumulative_Power_Consumption>200</Measured_Cumulative_Power_Consumption> 
+	     <type>variable</type>
+    </property>      
+    <property>
+	    <Manufacturer_Fault_Code>0000</Manufacturer_Fault_Code> 
+	     <type>variable</type>
+    </property>     
+    <property>
+	    <Current_Limit_Setting>50</Current_Limit_Setting> 
+	    <set>enabled</set>
+	    <type>variable</type>
+    </property>      
+    <property>
+	    <Fault_Status>No Fault</Fault_Status> 
+		<notify>enabled</notify>
+	     <type>variable</type>
+    </property> 
+    <property>
+	    <Fault_Description>0000</Fault_Description> 
+	     <type>variable</type>
+    </property>
+
+    <property>
+	    <Manufacturer_Code>NEC</Manufacturer_Code> 
+	     <type>variable</type>
+    </property>      
+    <property>
+	    <Business_Facility_Code>KIO</Business_Facility_Code> 
+	     <type>variable</type>
+    </property> 
+
+    <property>
+	    <Product_Code>LM35 Sensor</Product_Code> 
+	     <type>variable</type>
+    </property>      
+    <property>
+	    <Production_Number>T01</Production_Number> 
+	     <type>variable</type>
+    </property> 
+
+     <property>
+	    <Production_Date>2016:07:20</Production_Date> 
+	     <type>variable</type>
+    </property>      
+    <property>
+	    <Power-saving_Operation_Setting>YES</Power-saving_Operation_Setting> 
+	    <set>enabled</set>
+	    <type>variable</type>
+    </property> 
+
+    <property>
+	    <Remote_Control_Setting>Through a public network</Remote_Control_Setting> 
+	    <set>enabled</set>
+	     <type>variable</type>
+    </property>
+    
+    <property>
+	    <Current_Time_Setting>16:45</Current_Time_Setting> 
+	    <set>enabled</set>
+	     <type>variable</type>
+    </property>
+
+    <property>
+	    <Current_Date_Setting>2016:08:01</Current_Date_Setting> 
+	    <set>enabled</set>
+	     <type>variable</type>
+    </property>
+
+    <property>
+	    <Power_Limit_Setting>1000</Power_Limit_Setting> 
+	    <set>enabled</set>
+	     <type>variable</type>
+    </property>
+    
+    <property>
+	    <Cumulative_Operating_Time>11 hours</Cumulative_Operating_Time> 
+	     <type>variable</type>
+    </property>
+  </object>
+</device>

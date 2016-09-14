@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<actionList>
+		<!--Get OperationStatus-->
+		<action>
+			<name>GetOperationStatus</name>
+			<argumentList>
+				<name>CurrentOperationStatus</name>
+				<direction>out</direction>
+				<relatedStateVariable>OperationStatus</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Set OperationStatus-->
+		<action>
+			<name>SetOperationStatus</name>
+			<argumentList>
+				<name>NewOperationStatus</name>
+				<direction>in</direction>
+				<relatedStateVariable>OperationStatus</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get Temperature-->
+		<action>
+			<name>GetTemperature</name>
+			<argumentList>
+				<name>CurrentTemperature</name>
+				<direction>out</direction>
+				<relatedStateVariable>Temperature</relatedStateVariable>
+			</argumentList>
+		</action>
+	</actionList>
+	<serviceStateTable>
+		<!--OperationStatus-->
+		<stateVariable sendEvents="yes">
+			<name>OperationStatus</name>
+			<dataType>string</dataType>
+			<allowedValueList>
+				<allowedValue>ON</allowedValue>
+				<allowedValue>OFF</allowedValue>
+			</allowedValueList>
+		</stateVariable>
+		<!--Temperature-->
+		<stateVariable sendEvents="no">
+			<name>Temperature</name>
+			<dataType>float</dataType>
+			<allowedValueRange>
+				<minimum>-273.2</minimum>
+				<maximum>3276.6</maximum>
+				<step>0.1</step>
+			</allowedValueRange>
+		</stateVariable>
+	</serviceStateTable>
+</scpd>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<actionList>
+		<!--Get OperationStatus-->
+		<action>
+			<name>GetOperationStatus</name>
+			<argumentList>
+				<name>CurrentOperationStatus</name>
+				<direction>out</direction>
+				<relatedStateVariable>OperationStatus</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Set OperationStatus-->
+		<action>
+			<name>SetOperationStatus</name>
+			<argumentList>
+				<name>NewOperationStatus</name>
+				<direction>in</direction>
+				<relatedStateVariable>OperationStatus</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get Humidity-->
+		<action>
+			<name>GetHumidity</name>
+			<argumentList>
+				<name>CurrentHumidity</name>
+				<direction>out</direction>
+				<relatedStateVariable>Humidity</relatedStateVariable>
+			</argumentList>
+		</action>
+	</actionList>
+	<serviceStateTable>
+		<!--OperationStatus-->
+		<stateVariable sendEvents="yes">
+			<name>OperationStatus</name>
+			<dataType>string</dataType>
+			<allowedValueList>
+				<allowedValue>ON</allowedValue>
+				<allowedValue>OFF</allowedValue>
+			</allowedValueList>
+		</stateVariable>
+		<!--Humidity-->
+		<stateVariable sendEvents="no">
+			<name>Humidity</name>
+			<dataType>ui1</dataType>
+			<allowedValueRange>
+				<minimum>0</minimum>
+				<maximum>100</maximum>
+				<step>1</step>
+			</allowedValueRange>
+		</stateVariable>
+	</serviceStateTable>
+</scpd>

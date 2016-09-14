@@ -1,0 +1,16 @@
+
+1. HGW
+[card] [server]:
+ex: eth0 coap://192.168.0.100:5683
+
+********************************************
+
+2. CoAP Client
+[card] [xml file] [server]
+ex: eth0 Device1.xml coap://192.168.0.5:5683
+
+********************************************
+
+3. Humming
+[xml file1] [xml file2] .....
+ex: supper.xml updater.xml

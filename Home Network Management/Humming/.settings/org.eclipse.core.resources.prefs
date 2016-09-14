@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/humming/sample/I2C/I2CPin.java=UTF-8
+encoding//src/humming/sample/I2C/TCN75PropertyDelegate.java=UTF-8
+encoding//src/humming/sample/I2C/TCN75_I2CPin.java=UTF-8
+encoding//src/humming/sample/TCN75_TemperaturePropertyUpdater.java=UTF-8

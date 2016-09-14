@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device>
+  <object ceoj="05FD">
+    <property epc="80" set="enabled" notify="enabled">
+      <data type="delegate">
+        <class>humming.sample.GPIOPinPropertyDelegate</class>
+        <config instance="delegate">
+          delegate.setPinNumber(1);
+          delegate.setGroupName("gpio");
+          delegate.setGroupWritable(true);
+          delegate.setUseSudo(true);
+        </config>
+      </data>
+    </property>
+    <property epc="E0">
+        <!-- PIN20 -->
+        <data type="const">50494e323000000000000000</data>
+    </property>
+  </object>
+  <object ceoj="05FD">
+    <property epc="80" notify="enabled">
+      <data type="delegate">
+        <class>humming.sample.GPIOPinPropertyDelegate</class>
+        <config instance="delegate">
+          delegate.setPinNumber(21);
+          delegate.setGroupName("gpio");
+          delegate.setGroupWritable(true);
+          delegate.setUseSudo(true);
+          delegate.setInterval(100);
+        </config>
+      </data>
+    </property>
+    <property epc="E0">
+        <!-- PIN21 -->
+        <data type="const">50494e323100000000000000</data>
+    </property>
+  </object>
+</device>

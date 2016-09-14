@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device>
+	<profile>
+		<property epc="80" set="enabled" notify="enabled">
+			<data type="variable">31</data>
+		</property>
+		<property epc="81" set="enabled" notify="enabled">
+			<data type="variable">08</data>
+		</property>
+		<property epc="82">
+			<data type="variable">01014B01</data>
+		</property>
+		<property epc="83">
+			<data type="variable">9100000000000000000000000000000014</data>
+		</property>
+		<property epc="84">
+			<data type="variable">0005</data>
+		</property>
+		<property epc="85">
+			<data type="variable">000000C8</data>
+		</property>
+		<property epc="86">
+			<data type="variable">044E454300000000</data>
+		</property>
+		<property epc="87" set="enabled">
+			<data type="variable">32</data>
+		</property>
+		<property epc="88" notify="enabled">
+			<data type="variable">42</data>
+		</property>
+		<property epc="89">
+			<data type="variable">0000</data>
+		</property>
+		<property epc="8A">
+			<data type="variable">4E4543</data>
+		</property>
+		<property epc="8B">
+			<data type="variable">4B494F</data>
+		</property>
+		<property epc="8C">
+			<data type="variable">4C4D33352053656E736F66</data>
+		</property>
+		<property epc="8D">
+			<data type="variable">543031</data>
+		</property>
+		<property epc="8E">
+			<data type="variable">07E00714</data>
+		</property>
+		<property epc="8F" set="enabled">
+			<data type="variable">41</data>
+		</property>
+		<property epc="93" set="enabled">
+			<data type="variable">42</data>
+		</property>
+		<property epc="97" set="enabled">
+			<data type="variable">102D</data>
+		</property>
+		<property epc="98" set="enabled">
+			<data type="variable">07E00801</data>
+		</property>
+		<property epc="99" set="enabled" >
+			<data type="variable">03E8</data>
+		</property>
+		<property epc="9A">
+			<data type="variable">430000000B</data>
+		</property>
+	</profile>
+</device>

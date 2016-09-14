@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<actionList>
+		<!--Get OperationStatus-->
+		<action>
+			<name>GetOperationStatus</name>
+			<argumentList>
+				<name>CurrentOperationStatus</name>
+				<direction>out</direction>
+				<relatedStateVariable>OperationStatus</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Set OperationStatus-->
+		<action>
+			<name>SetOperationStatus</name>
+			<argumentList>
+				<name>NewOperationStatus</name>
+				<direction>in</direction>
+				<relatedStateVariable>OperationStatus</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get InstallationLocation-->
+		<action>
+			<name>GetInstallationLocation</name>
+			<argumentList>
+				<name>CurrentInstallationLocation</name>
+				<direction>out</direction>
+				<relatedStateVariable>InstallationLocation</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Set InstallationLocation-->
+		<action>
+			<name>SetInstallationLocation</name>
+			<argumentList>
+				<name>NewInstallationLocation</name>
+				<direction>in</direction>
+				<relatedStateVariable>InstallationLocation</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get StandardVersionInfo-->
+		<action>
+			<name>GetStandardVersionInfo</name>
+			<argumentList>
+				<name>CurrentStandardVersionInfo</name>
+				<direction>out</direction>
+				<relatedStateVariable>StandardVersionInfo</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get IdentificationNumber-->
+		<action>
+			<name>GetIdentificationNumber</name>
+			<argumentList>
+				<name>CurrentIdentificationNumber</name>
+				<direction>out</direction>
+				<relatedStateVariable>IdentificationNumber</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get InstantaneousPower-->
+		<action>
+			<name>GetInstantaneousPower</name>
+			<argumentList>
+				<name>CurrentInstantaneousPower</name>
+				<direction>out</direction>
+				<relatedStateVariable>InstantaneousPower</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get CumulativePower-->
+		<action>
+			<name>GetCumulativePower</name>
+			<argumentList>
+				<name>CurrentCumulativePower</name>
+				<direction>out</direction>
+				<relatedStateVariable>CumulativePower</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get ManufactureerFaultCode-->
+		<action>
+			<name>GetManufactureerFaultCode</name>
+			<argumentList>
+				<name>CurrentManufactureerFaultCode</name>
+				<direction>out</direction>
+				<relatedStateVariable>ManufactureerFaultCode</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get CurrentLimitSetting-->
+		<action>
+			<name>GetCurrentLimitSetting</name>
+			<argumentList>
+				<name>CurrentCurrentLimitSetting</name>
+				<direction>out</direction>
+				<relatedStateVariable>CurrentLimitSetting</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Set CurrentLimitSetting-->
+		<action>
+			<name>SetCurrentLimitSetting</name>
+			<argumentList>
+				<name>NewCurrentLimitSetting</name>
+				<direction>in</direction>
+				<relatedStateVariable>CurrentLimitSetting</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get FaultStatus-->
+		<action>
+			<name>GetFaultStatus</name>
+			<argumentList>
+				<name>CurrentFaultStatus</name>
+				<direction>out</direction>
+				<relatedStateVariable>FaultStatus</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get FaultDescription-->
+		<action>
+			<name>GetFaultDescription</name>
+			<argumentList>
+				<name>CurrentFaultDescription</name>
+				<direction>out</direction>
+				<relatedStateVariable>FaultDescription</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get ManufacturerCode-->
+		<action>
+			<name>GetManufacturerCode</name>
+			<argumentList>
+				<name>CurrentManufacturerCode</name>
+				<direction>out</direction>
+				<relatedStateVariable>ManufacturerCode</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get BusinessFacilityCode-->
+		<action>
+			<name>GetBusinessFacilityCode</name>
+			<argumentList>
+				<name>CurrentBusinessFacilityCode</name>
+				<direction>out</direction>
+				<relatedStateVariable>BusinessFacilityCode</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get ProductCode-->
+		<action>
+			<name>GetProductCode</name>
+			<argumentList>
+				<name>CurrentProductCode</name>
+				<direction>out</direction>
+				<relatedStateVariable>ProductCode</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get ProductionNumber-->
+		<action>
+			<name>GetProductionNumber</name>
+			<argumentList>
+				<name>CurrentProductionNumber</name>
+				<direction>out</direction>
+				<relatedStateVariable>ProductionNumber</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get ProductionDate-->
+		<action>
+			<name>GetProductionDate</name>
+			<argumentList>
+				<name>CurrentProductionDate</name>
+				<direction>out</direction>
+				<relatedStateVariable>ProductionDate</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get PowerSaving-->
+		<action>
+			<name>GetPowerSaving</name>
+			<argumentList>
+				<name>CurrentPowerSaving</name>
+				<direction>out</direction>
+				<relatedStateVariable>PowerSaving</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Set PowerSaving-->
+		<action>
+			<name>SetPowerSaving</name>
+			<argumentList>
+				<name>NewPowerSaving</name>
+				<direction>in</direction>
+				<relatedStateVariable>PowerSaving</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get RemoteControlSetting-->
+		<action>
+			<name>GetThroughPublicNetwork</name>
+			<argumentList>
+				<name>CurrentThroughPublicNetwork</name>
+				<direction>out</direction>
+				<relatedStateVariable>ThroughPublicNetwork</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Set RemoteControlSetting-->
+		<action>
+			<name>SetThroughPublicNetwork</name>
+			<argumentList>
+				<name>NewThroughPublicNetwork</name>
+				<direction>in</direction>
+				<relatedStateVariable>ThroughPublicNetwork</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get CurrentTimeSetting-->
+		<action>
+			<name>GetCurrentTimeSetting</name>
+			<argumentList>
+				<name>CurrentCurrentTimeSetting</name>
+				<direction>out</direction>
+				<relatedStateVariable>CurrentTimeSetting</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Set CurrentTimeSetting-->
+		<action>
+			<name>SetCurrentTimeSetting</name>
+			<argumentList>
+				<name>NewCurrentTimeSetting</name>
+				<direction>in</direction>
+				<relatedStateVariable>CurrentTimeSetting</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get CurrentDateSetting-->
+		<action>
+			<name>GetCurrentDateSetting</name>
+			<argumentList>
+				<name>CurrentCurrentDateSetting</name>
+				<direction>out</direction>
+				<relatedStateVariable>CurrentDateSetting</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Set CurrentDateSetting-->
+		<action>
+			<name>SetCurrentDateSetting</name>
+			<argumentList>
+				<name>NewCurrentDateSetting</name>
+				<direction>in</direction>
+				<relatedStateVariable>CurrentDateSetting</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get PowerLimit-->
+		<action>
+			<name>GetPowerLimit</name>
+			<argumentList>
+				<name>CurrentPowerLimit</name>
+				<direction>out</direction>
+				<relatedStateVariable>PowerLimit</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Set PowerLimit-->
+		<action>
+			<name>SetPowerLimit</name>
+			<argumentList>
+				<name>NewPowerLimit</name>
+				<direction>in</direction>
+				<relatedStateVariable>PowerLimit</relatedStateVariable>
+			</argumentList>
+		</action>
+		<!--Get CumulativeTime-->
+		<action>
+			<name>GetCumulativeTime</name>
+			<argumentList>
+				<name>CurrentCumulativeTime</name>
+				<direction>out</direction>
+				<relatedStateVariable>CumulativeTime</relatedStateVariable>
+			</argumentList>
+		</action>
+	</actionList>
+	<serviceStateTable>
+		<!--OperationStatus-->
+		<stateVariable sendEvents="yes">
+			<name>OperationStatus</name>
+			<dataType>string</dataType>
+			<allowedValueList>
+				<allowedValue>ON</allowedValue>
+				<allowedValue>OFF</allowedValue>
+			</allowedValueList>
+		</stateVariable>
+		<!--InstallationLocation-->
+		<stateVariable sendEvents="yes">
+			<name>InstallationLocation</name>
+			<dataType>string</dataType>
+			<allowedValueList>
+				<allowedValue>Living room</allowedValue>
+				<allowedValue>Dining room</allowedValue>
+				<allowedValue>Kitchen</allowedValue>
+				<allowedValue>Bathroom</allowedValue>
+				<allowedValue>Lavatory</allowedValue>
+				<allowedValue>Washroom/changing room</allowedValue>
+				<allowedValue>Passageway</allowedValue>
+				<allowedValue>Room</allowedValue>
+				<allowedValue>Stairway</allowedValue>
+				<allowedValue>Front door</allowedValue>
+				<allowedValue>Storeroom</allowedValue>
+				<allowedValue>Garden/perimeter</allowedValue>
+				<allowedValue>Garage</allowedValue>
+				<allowedValue>Veranda/balcony</allowedValue>
+				<allowedValue>Others</allowedValue>
+			</allowedValueList>
+		</stateVariable>
+		<!--StandardVersionInfo-->
+		<stateVariable sendEvents="no">
+			<name>StandardVersionInfo</name>
+			<dataType>string</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+		<!--IdentificationNumber-->
+		<stateVariable sendEvents="no">
+			<name>IdentificationNumber</name>
+			<dataType>string</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+		<!--InstantaneousPower-->
+		<stateVariable sendEvents="no">
+			<name>InstantaneousPower</name>
+			<dataType>ui1</dataType>
+			<allowedValueRange>
+				<minimum>0</minimum>
+				<maximum>65533</maximum>
+				<step>1</step>
+			</allowedValueRange>
+		</stateVariable>
+		<!--CumulativePower-->
+		<stateVariable sendEvents="no">
+			<name>CumulativePower</name>
+			<dataType>float</dataType>
+			<allowedValueRange>
+				<minimum>0</minimum>
+				<maximum>999999.999</maximum>
+				<step>0.001</step>
+			</allowedValueRange>
+		</stateVariable>
+		<!--ManufactureerFaultCode-->
+		<stateVariable sendEvents="no">
+			<name>ManufactureerFaultCode</name>
+			<dataType>string</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+		<!--CurrentLimitSetting-->
+		<stateVariable sendEvents="no">
+			<name>CurrentLimitSetting</name>
+			<dataType>ui1</dataType>
+			<allowedValueRange>
+				<minimum>0</minimum>
+				<maximum>100</maximum>
+				<step>1</step>
+			</allowedValueRange>
+		</stateVariable>
+		<!--FaultStatus-->
+		<stateVariable sendEvents="yes">
+			<name>FaultStatus</name>
+			<dataType>string</dataType>
+			<allowedValueList>
+				<allowedValue>true</allowedValue>
+				<allowedValue>false</allowedValue>
+			</allowedValueList>
+		</stateVariable>
+		<!--FaultDescription-->
+		<stateVariable sendEvents="">
+			<name>FaultDescription</name>
+			<dataType>string</dataType>
+			<defaultValue>No fault</defaultValue>
+		</stateVariable>
+		<!--ManufacturerCode-->
+		<stateVariable sendEvents="no">
+			<name>ManufacturerCode</name>
+			<dataType>string</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+		<!--BusinessFacilityCode-->
+		<stateVariable sendEvents="no">
+			<name>BusinessFacilityCode</name>
+			<dataType>string</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+		<!--ProductCode-->
+		<stateVariable sendEvents="no">
+			<name>ProductCode</name>
+			<dataType>string</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+		<!--ProductionNumber-->
+		<stateVariable sendEvents="no">
+			<name>ProductionNumber</name>
+			<dataType>string</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+		<!--ProductDate-->
+		<stateVariable sendEvents="no">
+			<name>ProductDate</name>
+			<dataType>Date</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+		<!--PowerSaving-->
+		<stateVariable sendEvents="no">
+			<name>PowerSaving</name>
+			<dataType>string</dataType>
+			<allowedValueList>
+				<allowedValue>ON</allowedValue>
+				<allowedValue>OFF</allowedValue>
+			</allowedValueList>
+		</stateVariable>
+		<!--RemoteControlSetting-->
+		<stateVariable sendEvents="no">
+			<name>ThroughPublicNetwork</name>
+			<dataType>string</dataType>
+			<allowedValueList>
+				<allowedValue>YES</allowedValue>
+				<allowedValue>NO</allowedValue>
+			</allowedValueList>
+		</stateVariable>
+		<!--CurrentTimeSetting-->
+		<stateVariable sendEvents="no">
+			<name>CurrentTimeSetting</name>
+			<dataType>Time</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+		<!--CurrentDateSetting-->
+		<stateVariable sendEvents="no">
+			<name>CurrentDateSetting</name>
+			<dataType>Date</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+		<!--PowerLimit-->
+		<stateVariable sendEvents="no">
+			<name>PowerLimit</name>
+			<dataType>ui1</dataType>
+			<allowedValueRange>
+				<minimum>0</minimum>
+				<maximum>65535</maximum>
+				<step>1</step>
+			</allowedValueRange>
+		</stateVariable>
+		<!--CumulativeTime-->
+		<stateVariable sendEvents="no">
+			<name>CumulativeTime</name>
+			<dataType>string</dataType>
+			<defaultValue></defaultValue>
+		</stateVariable>
+	</serviceStateTable>
+</scpd>

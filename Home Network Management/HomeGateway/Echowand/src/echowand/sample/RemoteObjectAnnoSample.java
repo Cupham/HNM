@@ -1,0 +1,58 @@
+package echowand.sample;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import echowand.common.EOJ;
+import echowand.common.EPC;
+import echowand.info.NodeProfileInfo;
+import echowand.logic.MainLoop;
+import echowand.logic.RequestDispatcher;
+import echowand.logic.TransactionManager;
+import echowand.net.Inet4Subnet;
+import echowand.net.Node;
+import echowand.object.*;
+
+public class RemoteObjectAnnoSample {
+    public static void main(String[] args) {
+        try {
+            final Inet4Subnet subnet = Inet4Subnet.startSubnet();
+            final TransactionManager transactionManager = new TransactionManager(subnet);
+            RemoteObjectManager remoteManager = new RemoteObjectManager();
+            LocalObjectManager localManager = new LocalObjectManager();
+            
+            final RequestDispatcher dispatcher = new RequestDispatcher();
+            dispatcher.addRequestProcessor(new AnnounceRequestProcessor(localManager, remoteManager));
+            
+            LocalObject nodeProfileObject = new LocalObject(new NodeProfileInfo());
+            nodeProfileObject.addDelegate(new NodeProfileObjectDelegate(localManager));
+            localManager.add(nodeProfileObject);
+
+            MainLoop mainLoop = new MainLoop();
+            mainLoop.setSubnet(subnet);
+            mainLoop.addListener(transactionManager);
+            mainLoop.addListener(dispatcher);
+            
+            Thread mainThread = new Thread(mainLoop);
+            mainThread.start();
+
+            InstanceListRequestExecutor instanceListRequest = new InstanceListRequestExecutor(subnet, transactionManager, remoteManager);
+            instanceListRequest.execute();
+            instanceListRequest.join();
+            
+            for (Node node : remoteManager.getNodes()) {
+                RemoteObject remoteObject = remoteManager.get(node, new EOJ("027d01"));
+                remoteObject.addObserver(new RemoteObjectObserver() {
+                    @Override
+                    public void notifyData(RemoteObject object, EPC epc, ObjectData data) {
+                        System.out.println(object.getNode() + " " + object.getEOJ() + " " + epc + " " + data);
+                    }
+                });
+            }
+
+        } catch (Exception ex) {
+        	System.out.println("debug");
+            Logger.getLogger(RemoteObjectGetSample.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+}

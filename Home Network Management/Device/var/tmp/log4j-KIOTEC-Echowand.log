@@ -1,0 +1,616 @@
+[10:27:34 02-08-2016] [INFO ] [ClientCreator] [Line 46] - CoAP client is starting...
+[10:27:34 02-08-2016] [INFO ] [ClientCreator] [Line 68] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.104'
+[10:27:34 02-08-2016] [INFO ] [ClientCreator] [Line 170] - [Bootstrapping] Start bootstrapping process
+[10:27:34 02-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.5:5683/CoAPRegister
+[10:27:35 02-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[10:27:35 02-08-2016] [INFO ] [ClientCreator] [Line 184] - Bootstrapping process has been executed sucessfully!
+[10:27:35 02-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.5:5683/CoAPObserve
+[10:27:35 02-08-2016] [INFO ] [ClientCreator] [Line 77] - ==Start subcribing to the management platform (SMP)
+[10:27:35 02-08-2016] [INFO ] [ClientCreator] [Line 89] - ==Start send updated listening to the management platform (SMP)
+[10:27:35 02-08-2016] [INFO ] [ClientCreator] [Line 120] - Self management processes have been started
+[10:28:07 02-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[10:28:07 02-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.104", "attributeName":"OperationStatus", "value":"OFF"}
+[10:28:07 02-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.5:5683/CoAPUpdate
+[10:28:08 02-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[10:28:08 02-08-2016] [INFO ] [ClientCreator] [Line 100] -   [SMP] Home network resources are synced to the management platform
+[16:20:00 02-08-2016] [INFO ] [ClientCreator] [Line 46] - CoAP client is starting...
+[16:20:00 02-08-2016] [INFO ] [ClientCreator] [Line 68] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.104'
+[16:20:00 02-08-2016] [INFO ] [ClientCreator] [Line 170] - [Bootstrapping] Start bootstrapping process
+[16:20:00 02-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.5:5683/CoAPRegister
+[16:20:01 02-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:20:01 02-08-2016] [INFO ] [ClientCreator] [Line 184] - Bootstrapping process has been executed sucessfully!
+[16:20:01 02-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.5:5683/CoAPObserve
+[16:20:01 02-08-2016] [INFO ] [ClientCreator] [Line 120] - Self management processes have been started
+[16:20:01 02-08-2016] [INFO ] [ClientCreator] [Line 89] - ==Start send updated listening to the management platform (SMP)
+[16:20:01 02-08-2016] [INFO ] [ClientCreator] [Line 77] - ==Start subcribing to the management platform (SMP)
+[16:20:52 02-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:20:52 02-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.104", "attributeName":"OperationStatus", "value":"OFF"}
+[16:20:53 02-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.5:5683/CoAPUpdate
+[16:20:53 02-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:20:53 02-08-2016] [INFO ] [ClientCreator] [Line 100] -   [SMP] Home network resources are synced to the management platform
+[16:20:56 02-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:20:56 02-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.104", "attributeName":"OperationStatus", "value":"ON"}
+[16:20:57 02-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.5:5683/CoAPUpdate
+[16:20:57 02-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:20:57 02-08-2016] [INFO ] [ClientCreator] [Line 100] -   [SMP] Home network resources are synced to the management platform
+[16:21:02 02-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:21:02 02-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.104", "attributeName":"OperationStatus", "value":"OFF"}
+[16:21:03 02-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.5:5683/CoAPUpdate
+[16:21:03 02-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:21:03 02-08-2016] [INFO ] [ClientCreator] [Line 100] -   [SMP] Home network resources are synced to the management platform
+[16:21:07 02-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:21:07 02-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.104", "attributeName":"OperationStatus", "value":"ON"}
+[16:21:07 02-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.5:5683/CoAPUpdate
+[16:21:07 02-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:21:07 02-08-2016] [INFO ] [ClientCreator] [Line 100] -   [SMP] Home network resources are synced to the management platform
+[16:21:16 02-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:21:16 02-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.104", "attributeName":"Power-saving_Operation_Setting", "value":"OFF"}
+[16:21:16 02-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.5:5683/CoAPUpdate
+[16:21:16 02-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:21:16 02-08-2016] [INFO ] [ClientCreator] [Line 100] -   [SMP] Home network resources are synced to the management platform
+[16:21:19 02-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:21:19 02-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.104", "attributeName":"OperationStatus", "value":"OFF"}
+[16:21:19 02-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.5:5683/CoAPUpdate
+[16:21:19 02-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:21:19 02-08-2016] [INFO ] [ClientCreator] [Line 100] -   [SMP] Home network resources are synced to the management platform
+[16:25:01 02-08-2016] [INFO ] [ClientCreator] [Line 125] - Loading device resouces
+[16:25:01 02-08-2016] [INFO ] [ClientCreator] [Line 136] - Updating new information to the management platform
+[16:25:01 02-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.5:5683/CoAPRegister
+[16:25:01 02-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:25:01 02-08-2016] [INFO ] [ClientCreator] [Line 142] - New device resources have been updated successfully to the management platform
+[16:57:56 02-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:57:56 02-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.104'
+[16:57:56 02-08-2016] [INFO ] [ClientCreator] [Line 171] - [Bootstrapping] Start bootstrapping process
+[16:57:56 02-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.101:5683/CoAPRegister
+[16:57:57 02-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:57:57 02-08-2016] [INFO ] [ClientCreator] [Line 185] - Bootstrapping process has been executed sucessfully!
+[16:57:57 02-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.101:5683/CoAPObserve
+[16:57:57 02-08-2016] [INFO ] [ClientCreator] [Line 121] - Self management processes have been started
+[16:57:57 02-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:57:57 02-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[16:59:15 02-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:59:15 02-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.104'
+[16:59:15 02-08-2016] [INFO ] [ClientCreator] [Line 171] - [Bootstrapping] Start bootstrapping process
+[16:59:15 02-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.101:5683/CoAPRegister
+[16:59:16 02-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:59:16 02-08-2016] [INFO ] [ClientCreator] [Line 185] - Bootstrapping process has been executed sucessfully!
+[16:59:16 02-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.101:5683/CoAPObserve
+[16:59:16 02-08-2016] [INFO ] [ClientCreator] [Line 121] - Self management processes have been started
+[16:59:16 02-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:59:16 02-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[17:27:42 02-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[17:27:42 02-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.104'
+[17:27:42 02-08-2016] [INFO ] [ClientCreator] [Line 171] - [Bootstrapping] Start bootstrapping process
+[17:27:43 02-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.101:5683/CoAPRegister
+[17:27:43 02-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[17:27:43 02-08-2016] [INFO ] [ClientCreator] [Line 185] - Bootstrapping process has been executed sucessfully!
+[17:27:43 02-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.101:5683/CoAPObserve
+[17:27:43 02-08-2016] [INFO ] [ClientCreator] [Line 121] - Self management processes have been started
+[17:27:43 02-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[17:27:43 02-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[17:32:19 02-08-2016] [ERROR] [ServerSubcribeService] [Line 66] - [SMP] Can not connect to the management platform.
+[17:32:43 02-08-2016] [INFO ] [ClientCreator] [Line 126] - Loading device resouces
+[17:32:43 02-08-2016] [INFO ] [ClientCreator] [Line 132] - Device resources are up to date.
+[17:37:43 02-08-2016] [INFO ] [ClientCreator] [Line 126] - Loading device resouces
+[17:37:43 02-08-2016] [INFO ] [ClientCreator] [Line 132] - Device resources are up to date.
+[17:42:43 02-08-2016] [INFO ] [ClientCreator] [Line 126] - Loading device resouces
+[17:42:43 02-08-2016] [INFO ] [ClientCreator] [Line 132] - Device resources are up to date.
+[17:47:43 02-08-2016] [INFO ] [ClientCreator] [Line 126] - Loading device resouces
+[17:47:43 02-08-2016] [INFO ] [ClientCreator] [Line 132] - Device resources are up to date.
+[17:52:43 02-08-2016] [INFO ] [ClientCreator] [Line 126] - Loading device resouces
+[17:52:43 02-08-2016] [INFO ] [ClientCreator] [Line 132] - Device resources are up to date.
+[09:55:01 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[09:55:02 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[09:55:02 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[09:55:03 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[09:55:07 05-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[09:55:07 05-08-2016] [ERROR] [ClientCreator] [Line 199] - There is an error occurred. Trying again...
+[09:55:07 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[09:55:07 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[09:55:09 05-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[09:55:09 05-08-2016] [ERROR] [ClientCreator] [Line 199] - There is an error occurred. Trying again...
+[09:55:09 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[09:55:09 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[09:55:11 05-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!128 - Server can't store device data
+[09:55:11 05-08-2016] [ERROR] [ClientCreator] [Line 199] - There is an error occurred. Trying again...
+[09:55:11 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[09:55:11 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[09:55:11 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[09:55:11 05-08-2016] [INFO ] [ClientCreator] [Line 195] - Bootstrapping process has been executed sucessfully!
+[09:55:11 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Total bootstraping time: 8999
+[09:55:11 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[09:55:11 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[09:55:11 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[09:55:11 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[09:57:32 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[09:57:32 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[09:57:32 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[09:57:33 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[09:57:34 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[09:57:34 05-08-2016] [INFO ] [ClientCreator] [Line 195] - Bootstrapping process has been executed sucessfully!
+[09:57:34 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Total bootstraping time: 1270 ms
+[09:57:34 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[09:57:34 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[09:57:34 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[09:57:34 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[10:00:01 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[10:00:02 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[10:00:02 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[10:00:02 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[10:00:02 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[10:00:02 05-08-2016] [INFO ] [ClientCreator] [Line 195] - Bootstrapping process has been executed sucessfully!
+[10:00:02 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Total bootstraping time: 884 ms
+[10:00:02 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[10:00:03 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[10:00:03 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[10:00:03 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[10:02:12 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[10:02:13 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[10:02:13 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[10:02:13 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[10:02:13 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[10:02:13 05-08-2016] [INFO ] [ClientCreator] [Line 195] - Bootstrapping process has been executed sucessfully!
+[10:02:13 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Total bootstraping time: 636 ms
+[10:02:13 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[10:02:13 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[10:02:13 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[10:02:13 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[10:21:01 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[10:21:01 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[10:21:01 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[10:21:02 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[10:21:02 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[10:21:02 05-08-2016] [INFO ] [ClientCreator] [Line 195] - Bootstrapping process has been executed sucessfully!
+[10:21:02 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Total bootstraping time: 716 ms
+[10:21:02 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[10:21:02 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[10:21:02 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[10:21:02 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[10:21:36 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[10:21:36 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[10:21:36 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[10:21:36 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.5:5683/CoAPRegister
+[10:21:37 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[10:21:37 05-08-2016] [INFO ] [ClientCreator] [Line 195] - Bootstrapping process has been executed sucessfully!
+[10:21:37 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Total bootstraping time: 610 ms
+[10:21:37 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.5:5683/CoAPObserve
+[10:21:37 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[10:21:37 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[10:21:37 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[11:35:12 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[11:35:13 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[11:35:13 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[11:35:13 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.5:5683/CoAPRegister
+[11:35:14 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[11:35:14 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[11:35:14 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 1404 ms
+[11:35:14 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.5:5683/CoAPObserve
+[11:35:14 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[11:35:14 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[11:35:14 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[11:35:31 05-08-2016] [INFO ] [ServerSubcribeService] [Line 45] -    [SMP] Received command from server
+[11:35:31 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 46] -   [SMP] Received command: {"ip":"192.168.0.101", "attributeName":"OperationStatus", "value":"OFF"}
+[11:35:31 05-08-2016] [INFO ] [ServerSubcribeService] [Line 128] - Total updating device resouces time: 0 ms
+[11:35:31 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.5:5683/CoAPUpdate
+[11:35:31 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[11:35:31 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[11:35:31 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 79 ms
+[11:43:19 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[11:43:19 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[11:43:19 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[11:43:19 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.5:5683/CoAPRegister
+[11:43:20 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[11:43:20 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[11:43:20 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 787 ms
+[11:43:20 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.5:5683/CoAPObserve
+[11:43:20 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[11:43:20 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[11:43:20 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[11:43:29 05-08-2016] [INFO ] [ServerSubcribeService] [Line 45] -    [SMP] Received command from server
+[11:43:29 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 46] -   [SMP] Received command: {"ip":"192.168.0.5", "attributeName":"OperationStatus", "value":"OFF"}
+[11:43:29 05-08-2016] [ERROR] [ServerSubcribeService] [Line 120] - Device doesn't not exist
+[11:43:29 05-08-2016] [INFO ] [ServerSubcribeService] [Line 128] - Total updating device resouces time: 0 ms
+[11:43:29 05-08-2016] [INFO ] [ServerSubcribeService] [Line 55] - [SMP] Can not update device resources
+[11:43:49 05-08-2016] [INFO ] [ServerSubcribeService] [Line 45] -    [SMP] Received command from server
+[11:43:49 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 46] -   [SMP] Received command: {"ip":"192.168.0.101", "attributeName":"OperationStatus", "value":"OFF"}
+[11:43:49 05-08-2016] [INFO ] [ServerSubcribeService] [Line 128] - Total updating device resouces time: 0 ms
+[11:43:50 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.5:5683/CoAPUpdate
+[11:43:50 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[11:43:50 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[11:43:50 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 66 ms
+[11:47:46 05-08-2016] [INFO ] [ServerSubcribeService] [Line 45] -    [SMP] Received command from server
+[11:47:46 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 46] -   [SMP] Received command: {"ip":"192.168.0.103", "attributeName":"OperationStatus", "value":"OFF"}
+[11:47:46 05-08-2016] [ERROR] [ServerSubcribeService] [Line 120] - Device doesn't not exist
+[11:47:46 05-08-2016] [INFO ] [ServerSubcribeService] [Line 128] - Total updating device resouces time: 1 ms
+[11:47:46 05-08-2016] [INFO ] [ServerSubcribeService] [Line 55] - [SMP] Can not update device resources
+[11:48:20 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[11:48:20 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[11:49:13 05-08-2016] [INFO ] [ServerSubcribeService] [Line 45] -    [SMP] Received command from server
+[11:49:13 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 46] -   [SMP] Received command: {"ip":"192.168.0.103", "attributeName":"OperationStatus", "value":"OFF"}
+[11:49:13 05-08-2016] [ERROR] [ServerSubcribeService] [Line 120] - Device doesn't not exist
+[11:49:13 05-08-2016] [INFO ] [ServerSubcribeService] [Line 128] - Total updating device resouces time: 1 ms
+[11:49:13 05-08-2016] [INFO ] [ServerSubcribeService] [Line 55] - [SMP] Can not update device resources
+[12:26:04 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[12:26:04 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[12:26:04 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[12:26:05 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.5:5683/CoAPRegister
+[12:26:05 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[12:26:05 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[12:26:05 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 600 ms
+[12:26:05 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.5:5683/CoAPObserve
+[12:26:05 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[12:26:05 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[12:26:05 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[12:27:41 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[12:27:41 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[12:27:41 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[12:27:42 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.5:5683/CoAPRegister
+[12:27:42 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[12:27:42 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[12:27:42 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 549 ms
+[12:27:42 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.5:5683/CoAPObserve
+[12:27:42 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[12:27:42 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[12:27:42 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[12:44:03 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[12:44:03 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.101'
+[12:44:03 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[12:44:04 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.5:5683/CoAPRegister
+[12:44:04 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[12:44:04 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[12:44:04 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 651 ms
+[12:44:04 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.5:5683/CoAPObserve
+[12:44:04 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[12:44:04 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[12:44:04 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[12:49:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[12:49:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[12:54:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[12:54:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[12:59:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[12:59:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:04:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:04:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:09:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:09:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:14:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:14:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:19:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:19:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:24:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:24:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:29:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:29:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:34:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:34:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:39:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:39:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:44:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:44:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:49:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:49:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:54:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:54:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[13:59:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[13:59:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[14:04:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[14:04:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[14:09:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[14:09:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[14:14:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[14:14:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[14:19:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[14:19:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[14:24:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[14:24:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[14:29:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[14:29:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[14:34:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[14:34:04 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[14:39:04 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[14:39:05 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[16:01:59 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:01:59 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'fe80:0:0:0:1422:b4f9:a80e:d44%eth5'
+[16:01:59 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:01:59 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.107:5683/CoAPRegister
+[16:02:02 05-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[16:02:02 05-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[16:02:02 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:02:02 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.107:5683/CoAPRegister
+[16:02:04 05-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[16:02:04 05-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[16:02:04 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:02:04 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.107:5683/CoAPRegister
+[16:02:06 05-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[16:02:06 05-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[16:02:06 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:02:06 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.107:5683/CoAPRegister
+[16:02:08 05-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[16:02:08 05-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[16:02:09 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:02:09 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.107:5683/CoAPRegister
+[16:02:11 05-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[16:02:11 05-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[16:02:11 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:02:11 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.107:5683/CoAPRegister
+[16:02:13 05-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[16:02:13 05-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[16:02:13 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:02:13 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.107:5683/CoAPRegister
+[16:03:28 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:03:28 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'wlan2' network interface, IP address:'192.168.0.101'
+[16:03:28 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:03:29 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.107:5683/CoAPRegister
+[16:03:30 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:03:30 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[16:03:30 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 1329 ms
+[16:03:30 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.107:5683/CoAPObserve
+[16:03:30 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[16:03:30 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[16:03:30 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:12:39 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:12:39 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'wlan2' network interface, IP address:'192.168.0.101'
+[16:12:39 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:12:40 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[16:12:40 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:12:40 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[16:12:40 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 1186 ms
+[16:12:40 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[16:12:40 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[16:12:40 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:12:40 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[16:22:34 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:22:53 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:22:53 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.106'
+[16:22:53 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:22:53 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[16:22:54 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:22:54 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[16:22:54 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 626 ms
+[16:22:54 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[16:22:54 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[16:22:54 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[16:22:54 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:23:32 05-08-2016] [INFO ] [ServerSubcribeService] [Line 45] -    [SMP] Received command from server
+[16:23:32 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 46] -   [SMP] Received command: {"ip":"192.168.0.106", "attributeName":"OperationStatus", "value":"OFF"}
+[16:23:33 05-08-2016] [INFO ] [ServerSubcribeService] [Line 128] - Total updating device resouces time: 1 ms
+[16:23:33 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.109:5683/CoAPUpdate
+[16:23:33 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:23:33 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[16:23:33 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 84 ms
+[16:23:43 05-08-2016] [INFO ] [ServerSubcribeService] [Line 45] -    [SMP] Received command from server
+[16:23:43 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 46] -   [SMP] Received command: {"ip":"192.168.0.106", "attributeName":"Power-saving_Operation_Setting", "value":"OFF"}
+[16:23:43 05-08-2016] [INFO ] [ServerSubcribeService] [Line 128] - Total updating device resouces time: 0 ms
+[16:23:44 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.109:5683/CoAPUpdate
+[16:23:44 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:23:44 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[16:23:44 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 22 ms
+[16:23:51 05-08-2016] [INFO ] [ServerSubcribeService] [Line 45] -    [SMP] Received command from server
+[16:23:51 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 46] -   [SMP] Received command: {"ip":"192.168.0.106", "attributeName":"Power_Limit_Setting", "value":"1234"}
+[16:23:51 05-08-2016] [INFO ] [ServerSubcribeService] [Line 128] - Total updating device resouces time: 0 ms
+[16:23:52 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.109:5683/CoAPUpdate
+[16:23:52 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:23:52 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[16:23:52 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 35 ms
+[16:24:04 05-08-2016] [INFO ] [ServerSubcribeService] [Line 45] -    [SMP] Received command from server
+[16:24:04 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 46] -   [SMP] Received command: {"ip":"192.168.0.106", "attributeName":"OperationStatus", "value":"ON"}
+[16:24:04 05-08-2016] [INFO ] [ServerSubcribeService] [Line 128] - Total updating device resouces time: 0 ms
+[16:24:05 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.109:5683/CoAPUpdate
+[16:24:05 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:24:05 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[16:24:05 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 33 ms
+[16:29:07 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:29:07 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.106'
+[16:29:07 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:29:08 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[16:29:08 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:29:08 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[16:29:08 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 530 ms
+[16:29:08 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[16:29:08 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[16:29:08 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:29:08 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[16:31:02 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:31:02 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.106'
+[16:31:02 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:31:02 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[16:31:03 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:31:03 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[16:31:03 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 534 ms
+[16:31:03 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[16:31:03 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[16:31:03 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[16:31:03 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:32:27 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:32:28 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.106'
+[16:32:28 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:32:28 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[16:32:28 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:32:28 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[16:32:28 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 955 ms
+[16:32:28 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[16:32:28 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[16:32:28 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:32:28 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[16:32:37 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:32:37 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.106", "attributeName":"OperationStatus", "value":"OFF"}
+[16:32:37 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 0 ms
+[16:32:38 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.109:5683/CoAPUpdate
+[16:32:38 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:32:38 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[16:32:38 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 28 ms
+[16:32:48 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:32:48 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"ON"}
+[16:32:48 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[16:32:48 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 3 ms
+[16:32:48 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[16:32:53 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:32:53 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.106", "attributeName":"OperationStatus", "value":"ON"}
+[16:32:53 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 0 ms
+[16:32:54 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.109:5683/CoAPUpdate
+[16:32:54 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:32:54 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[16:32:54 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 45 ms
+[16:34:05 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:34:05 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"ON"}
+[16:34:05 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[16:34:05 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 1 ms
+[16:34:05 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[16:37:28 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[16:37:29 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[16:40:24 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:40:24 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.106", "attributeName":"OperationStatus", "value":"OFF"}
+[16:40:24 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 0 ms
+[16:40:24 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.109:5683/CoAPUpdate
+[16:40:24 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:40:24 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[16:40:24 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 28 ms
+[16:42:29 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[16:42:29 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[16:47:41 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:47:41 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.106'
+[16:47:41 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:47:42 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[16:47:42 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:47:42 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[16:47:42 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 542 ms
+[16:47:42 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[16:47:42 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:47:42 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[16:47:42 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[16:48:14 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:48:14 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"OFF"}
+[16:48:14 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[16:48:14 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 1 ms
+[16:48:14 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[16:51:39 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:51:39 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.106'
+[16:51:39 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:51:39 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[16:51:40 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:51:40 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[16:51:40 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 630 ms
+[16:51:40 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[16:51:40 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[16:51:40 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:51:40 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[16:51:55 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:51:55 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.106", "attributeName":"OperationStatus", "value":"OFF"}
+[16:51:55 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 0 ms
+[16:51:56 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.109:5683/CoAPUpdate
+[16:51:56 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[16:51:56 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[16:51:56 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 31 ms
+[16:52:52 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:52:52 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"OFF"}
+[16:52:52 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[16:52:52 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 2 ms
+[16:52:52 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[16:54:16 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[16:54:16 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.106'
+[16:54:16 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[16:54:17 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[16:54:17 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[16:54:17 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[16:54:17 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 816 ms
+[16:54:17 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[16:54:17 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[16:54:17 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[16:54:17 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[16:54:24 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:54:24 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"OFF"}
+[16:54:24 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[16:54:24 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 1 ms
+[16:54:24 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[16:55:26 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:55:26 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"OFF"}
+[16:55:26 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[16:55:26 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 1 ms
+[16:55:26 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[16:56:28 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:56:28 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"OFF"}
+[16:56:28 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[16:56:28 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 1 ms
+[16:56:28 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[16:57:30 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:57:30 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"OFF"}
+[16:57:30 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[16:57:30 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 1 ms
+[16:57:30 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[16:58:32 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:58:32 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"OFF"}
+[16:58:32 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[16:58:32 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 1 ms
+[16:58:32 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[16:59:17 05-08-2016] [INFO ] [ClientCreator] [Line 131] - Loading device resouces
+[16:59:17 05-08-2016] [INFO ] [ClientCreator] [Line 137] - Device resources are up to date.
+[16:59:34 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[16:59:34 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"OFF"}
+[16:59:34 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[16:59:34 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 1 ms
+[16:59:34 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[17:00:36 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[17:00:36 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"OFF"}
+[17:00:36 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[17:00:36 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 0 ms
+[17:00:36 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[17:01:19 05-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[17:01:19 05-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.106'
+[17:01:19 05-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[17:01:19 05-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[17:01:19 05-08-2016] [INFO ] [SenderRequest] [Line 50] - [PUT] 'CoAPRegister' Success!
+[17:01:19 05-08-2016] [INFO ] [ClientCreator] [Line 196] - Bootstrapping process has been executed sucessfully!
+[17:01:19 05-08-2016] [INFO ] [ClientCreator] [Line 197] - Total bootstraping time: 552 ms
+[17:01:19 05-08-2016] [INFO ] [ServerSubcribeService] [Line 27] - Initial subcribing to the management platform at:coap://192.168.0.109:5683/CoAPObserve
+[17:01:19 05-08-2016] [INFO ] [ClientCreator] [Line 90] - ==Start send updated listening to the management platform (SMP)
+[17:01:19 05-08-2016] [INFO ] [ClientCreator] [Line 126] - Self management processes have been started
+[17:01:19 05-08-2016] [INFO ] [ClientCreator] [Line 78] - ==Start subcribing to the management platform (SMP)
+[17:01:30 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[17:01:30 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.109", "attributeName":"OperationStatus", "value":"OFF"}
+[17:01:30 05-08-2016] [ERROR] [ServerSubcribeService] [Line 121] - Device does not exist
+[17:01:30 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 2 ms
+[17:01:30 05-08-2016] [INFO ] [ServerSubcribeService] [Line 56] - [SMP] Can not update device resources
+[17:01:54 05-08-2016] [INFO ] [ServerSubcribeService] [Line 46] -    [SMP] Received command from server
+[17:01:54 05-08-2016] [DEBUG] [ServerSubcribeService] [Line 47] -   [SMP] Received command: {"ip":"192.168.0.106", "attributeName":"OperationStatus", "value":"OFF"}
+[17:01:54 05-08-2016] [INFO ] [ServerSubcribeService] [Line 129] - Total updating device resouces time: 0 ms
+[17:01:54 05-08-2016] [INFO ] [SenderRequest] [Line 78] - [POST] Request URL: coap://192.168.0.109:5683/CoAPUpdate
+[17:01:54 05-08-2016] [INFO ] [SenderRequest] [Line 82] - [POST] 'CoAPUpdate' Success!
+[17:01:54 05-08-2016] [INFO ] [ClientCreator] [Line 103] -   [SMP] Home network resources are synced to the management platform
+[17:01:54 05-08-2016] [INFO ] [ClientCreator] [Line 110] - Total sending update request time: 22 ms
+[17:03:55 08-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[17:03:55 08-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.106'
+[17:03:55 08-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[17:03:55 08-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[17:03:58 08-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[17:03:58 08-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[17:03:58 08-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[17:03:58 08-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[17:04:00 08-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[17:04:00 08-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[17:04:00 08-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[17:04:00 08-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[17:04:02 08-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[17:04:02 08-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[17:04:02 08-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[17:04:02 08-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[17:04:05 08-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[17:04:05 08-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[17:04:05 08-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[17:04:05 08-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[17:04:07 08-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[17:04:07 08-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[17:04:07 08-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[17:04:07 08-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[17:04:09 08-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[17:04:09 08-08-2016] [ERROR] [ClientCreator] [Line 200] - There is an error occurred. Trying again...
+[17:04:09 08-08-2016] [INFO ] [ClientCreator] [Line 180] - [Bootstrapping] Start bootstrapping process
+[17:04:09 08-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[17:05:07 08-08-2016] [INFO ] [ClientCreator] [Line 47] - CoAP client is starting...
+[17:05:07 08-08-2016] [INFO ] [ClientCreator] [Line 69] - Initializing CoAP client service at 'eth5' network interface, IP address:'192.168.0.106'
+[17:05:07 08-08-2016] [INFO ] [ClientCreator] [Line 181] - [Bootstrapping] Start bootstrapping process
+[17:05:07 08-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[17:05:10 08-08-2016] [ERROR] [SenderRequest] [Line 53] - [PUT] 'CoAPRegister' Failed!not received response
+[17:05:10 08-08-2016] [ERROR] [ClientCreator] [Line 201] - There is an error occurred. Trying again...
+[17:05:10 08-08-2016] [INFO ] [ClientCreator] [Line 181] - [Bootstrapping] Start bootstrapping process
+[17:05:10 08-08-2016] [INFO ] [SenderRequest] [Line 46] - [PUT] Request URL: coap://192.168.0.109:5683/CoAPRegister
+[17:50:09 29-08-2016] [INFO ] [ClientCreator] [Line 17] - CoAP client is starting...

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<URLBase>coap://192.168.0.5:5683</URLBase>
+	<device>
+		<deviceType>urn:echonet-gr-jp:device:ECHONET Lite_Profile:1</deviceType>
+		<friendlyName>ECHONET Lite Profile</friendlyName>
+		<manufacturer></manufacturer>
+		<manufacturerURL></manufacturerURL>
+		<modelDescription></modelDescription>
+		<modelName></modelName>
+		<modelNumber></modelNumber>
+		<modelURL></modelURL>
+		<serialNumber></serialNumber>
+		<UDN></UDN>
+		<UPC></UPC>
+		<iconList></iconList>
+		<serviceList>
+			<service>
+				<serviceType>urn:echonet-gr-jp:service:ECHONET Lite_Service:1</serviceType>
+				<serviceId>urn:echonet-gr-jp:serviceId:ECHONET Lite_Profile</serviceId>
+				<SCPDURL>/profileService.xml</SCPDURL>
+				<controlURL>/ECHONET Lite/control/ECHONET Lite_Profile1</controlURL>
+				<eventSubURL>/ECHONET Lite/Eventing/ECHONET Lite_Profile1</eventSubURL>
+			</service>
+		</serviceList>
+		<deviceList></deviceList>
+		<presentationURL>/profilePresentation.html</presentationURL>
+	</device>
+</root>

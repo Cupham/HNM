@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device>
+	<profile>
+		<property epc="80" set="enabled" notify="enabled">
+			<data type="variable">30</data>
+		</property>
+		<property epc="81" set="enabled" notify="enabled">
+			<data type="variable">08</data>
+		</property>
+		<property epc="82">
+			<data type="const">00000100</data>
+		</property>
+		<property epc="83">
+			<data type="const">8109899009100110010101012010101010</data>
+		</property>
+		<property epc="84">
+			<data type="variable">023A</data>
+		</property>
+		<property epc="85">
+			<data type="variable">02040608</data>
+		</property>
+		<property epc="86">
+			<data type="variable">020406086A341209</data>
+		</property>
+		<property epc="87">
+			<data type="variable">46</data>
+		</property>
+		<property epc="88">
+			<data type="variable">42</data>
+		</property>
+		<property epc="89">
+			<data type="variable">0100</data>
+		</property>
+		<property epc="8A">
+			<data type="variable">01004A</data>
+		</property>
+		<property epc="8B">
+			<data type="variable">01004B</data>
+		</property>
+		<property epc="8C">
+			<data type="variable">01004C011001101001010101</data>
+		</property>
+		<property epc="8D">
+			<data type="variable">01004C011001101001010102</data>
+		</property>
+		<property epc="8E">
+			<data type="variable">07e00719</data>
+		</property>
+		<property epc="8F">
+			<data type="variable">41</data>
+		</property>
+		<property epc="93">
+			<data type="variable">42</data>
+		</property>
+		<property epc="97">
+			<data type="variable">0A1D</data>
+		</property>
+		<property epc="98">
+			<data type="variable">07e00719</data>
+		</property>
+		<property epc="99">
+			<data type="variable">4210</data>
+		</property>
+		<property epc="9A">
+			<data type="variable">4401011010</data>
+		</property>
+		<property epc="9B">
+			<data type="variable">0000</data>
+		</property>
+		<property epc="9C">
+			<data type="variable">0000</data>
+		</property>
+		<property epc="9D">
+			<data type="variable">0280D5</data>
+		</property>
+		<property epc="9E">
+			<data type="variable">01BF</data>
+		</property>
+		<property epc="9F">
+			<data type="variable">00001234</data>
+		</property>
+	</profile>
+</device>
